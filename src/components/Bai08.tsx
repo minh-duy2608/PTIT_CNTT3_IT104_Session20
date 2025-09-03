@@ -6,7 +6,7 @@ function reducer(state: any, action: any) {
   return { ...state, [action.field]: action.value };
 }
 
-export default function UserForm() {
+export default function Bai08() {
   const [state, dispatch] = useReducer(reducer, initialState);
 
   return (
